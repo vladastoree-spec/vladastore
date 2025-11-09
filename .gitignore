@@ -1,0 +1,248 @@
+# ============================================
+# VLADASTORE - COMPLETE .GITIGNORE
+# ============================================
+
+# 🚫 ENVIRONMENT & CONFIGURATION FILES
+.env
+.env.local
+.env.production
+.env.development
+.env.testing
+.env.example.local
+.env.production.local
+*.env
+
+# Configuration backups
+config.php.backup
+*.backup
+*.bak
+config.local.php
+config.production.php
+config.development.php
+
+# 🚫 DATABASE FILES
+*.sql
+*.db
+*.mdb
+database.sql
+/database/
+/backups/
+/migrations/backup/
+*.frm
+*.myd
+*.myi
+
+# 🚫 USER UPLOADS & MEDIA
+/assets/uploads/*
+!/assets/uploads/.gitkeep
+/assets/images/user_uploads/
+/assets/images/payment_proofs/
+/assets/images/temp/
+/assets/documents/
+
+# 🚫 LOG FILES
+*.log
+logs/
+error_log
+/debug/
+/var/log/
+nginx-error.log
+php-error.log
+mysql-error.log
+
+# 🚫 CACHE & TEMPORARY FILES
+cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*sess_*
+session/
+/sessions/
+
+# PHP session files
+php_sessions/
+/sess_*
+
+# 🚫 DEPENDENCIES
+/vendor/
+composer.lock
+composer.phar
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 🚫 OPERATING SYSTEM FILES
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+**/.DS_Store
+
+# Linux
+*~
+
+# 🚫 IDE & EDITOR FILES
+# VS Code
+.vscode/
+*.code-workspace
+
+# PHPStorm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-*
+sublime-*
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Vim
+*.swp
+*.swo
+*~
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# 🚫 BACKUP FILES
+*.old
+*.orig
+*.save
+*.bkp
+backup/
+backups/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 🚫 DEVELOPMENT & TESTING
+/test/
+/tests/
+/testing/
+/coverage/
+.phpunit.result.cache
+.phplint-cache
+phpunit.xml
+.codeclimate.yml
+.travis.yml
+
+# 🚫 DEPLOYMENT & BUILD
+/build/
+/dist/
+/deploy/
+/.deploy/
+deploy.sh
+deploy.php
+.gitlab-ci.yml
+.github/workflows/deploy.yml
+
+# 🚫 COMPOSER
+composer.lock
+/composer.phar
+/vendor/bin/
+
+# 🚫 DOCUMENTATION
+/docs/_build/
+/docs/source/_build/
+*.docx
+*.pdf
+
+# 🚫 SSL & SECURITY
+*.key
+*.pem
+*.crt
+*.csr
+.htaccess
+.htpasswd
+
+# 🚫 DOCKER
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 🚫 MISC
+/.phpunit.result.cache
+/.php-cs-fixer.cache
+/phpmd.log
+/phpstan.result.cache
+
+# ============================================
+# FRAMEWORK SPECIFIC (JUST IN CASE)
+# ============================================
+
+# Laravel
+storage/framework/cache/data/*
+/storage/framework/views/*.php
+/storage/logs/*.log
+/public/storage
+/public/hot
+bootstrap/cache/
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/blogs.dir/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+
+# CakePHP
+/tmp/
+/logs/
+/config/app.php
+/config/app_local.php
+
+# Symfony
+/var/
+!/var/cache/.gitkeep
+!/var/log/.gitkeep
+!/var/sessions/.gitkeep
+
+# ============================================
+# KEEP THESE FILES (EXCEPTIONS)
+# ============================================
+!.gitkeep
+!README.md
+!LICENSE
+!CHANGELOG.md
+!CONTRIBUTING.md
+
+# ============================================
+# END OF VLADASTORE .GITIGNORE
+# ============================================
